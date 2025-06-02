@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (emptySquares.length === 0) return;
 
         let randomIndex = Math.floor(Math.random() * emptySquares.length);
-        let value = Math.random() < 0.9 ? 2 : 4; // optional: adds 10% chance of 4
+        let value = Math.random() < 0.9 ? 2 : 4; 
         emptySquares[randomIndex].innerHTML = value;
     }
 
